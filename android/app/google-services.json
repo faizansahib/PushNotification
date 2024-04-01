@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754539919336",
+    "project_id": "fir-80d37",
+    "storage_bucket": "fir-80d37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754539919336:android:10f7f3edab29d66c7f565d",
+        "android_client_info": {
+          "package_name": "com.faizan_sahib.Push"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAffbqIDIMKC6RgZtmspmpjZwPeqxHxc1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

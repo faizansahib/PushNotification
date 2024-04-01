@@ -1,12 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {usePushNotifications} from './UsePushnotification'
 
 export default function App() {
+
+  const {expoPushToken,notification} = usePushNotifications();
+
+  const data = JSON.stringify(notification,undefined,2);
+
+console.log(expoPushToken)
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+   <View>
+    <Text>Hello App</Text>
+    <Text>Token {expoPushToken?.data ?? ""}</Text>
+    <Text>{data}</Text>
+   </View>
   );
 }
 
